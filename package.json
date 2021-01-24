@@ -1,0 +1,16 @@
+{
+  "name": "svelte3-vite2-tailwindcss2-starter-template",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir ../dist"
+  },
+  "devDependencies": {
+    "postcss": "^8.2.4",
+    "rimraf": "^3.0.2",
+    "rollup-plugin-svelte": "github:rixo/rollup-plugin-svelte#svelte-hmr",
+    "svelte": "^3.31.2",
+    "tailwindcss": "^2.0.2",
+    "vite": "^2.0.0-beta.4"
+  }
+}
